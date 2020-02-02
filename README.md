@@ -29,4 +29,4 @@ Posts: http://jsonplaceholder.typicode.com/posts
 
 # Arquivo de edição (<diretório-projeto>/config/config.php)
 - Necessita de um usuário que possua permissão para CREATE, DELETE, SELECT, UPDATE, INDEX e INSERT;
-- A criação da base de dados e a importação dos usuário é feita automaticamente ao acessar a tela de usuários pela primeira vez
+- A criação da base de dados e a importação dos usuário é feita automaticamente ao acessar a tela de usuários pela primeira vez;
