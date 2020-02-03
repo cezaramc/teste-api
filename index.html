@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Users</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+    <link rel="stylesheet" type="text/css" href="lib/util/css/componentes.css?3">
+    <link rel="stylesheet" type="text/css" href="lib/css/estilos.css?2">
+    <link rel="stylesheet" type="text/css" href="lib/util/css/efeitos.css" />
+    <link rel="stylesheet" type="text/css" href="lib/util/css/fontes.css" />
+
+    <script type="text/javascript" src="lib/util/json2.js"></script>
+    <script type="text/javascript" src="lib/util/utils.js?3"></script>
+    <script type="text/javascript" src="lib/js/index.js"></script>
+</head>
+
+<body>
+    <div id="barraTopo">
+        <img style="width:150px; margin-top:6px; margin-left: 8px" src="lib/imagens/mobly.png" alt="Mobly" />
+        <div id="barraFerramentas">
+            <div style="width:600px; display:inline-block; margin-top: 5px; margin-left: 15px;">
+                <div id="cmdPesquisar" class="botaofundobarraferramentas" style="width:115px;" onclick="Pesquisar()">
+                    <div class="botaoredondominipesquisa"></div>
+                    Pesquisar
+                </div>
+                <div id="cmdNovoUsuario" class="botaofundobarraferramentas" style="width:150px;"
+                    onclick="novoUsuario()">
+                    <div class="botaoredondominivalidar"></div>
+                    + Novo Usuário
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="divPagina" style="padding-bottom:0px; margin-bottom:0px;">
+        <div id="relatorio" class="relatorio">
+            <div id="tabela"> </div>
+        </div>
+        <!--relatorio-->
+    </div>
+    <!--divPagina-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtER0WT-44zEochWPZoKq-SS_0dMTFZ8w" async
+        defer></script>
+</body>
+
+</html>
