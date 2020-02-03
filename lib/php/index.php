@@ -43,7 +43,7 @@ function getUsers($idUser = 0)
     $conn = getConnection();
 
     $user = new Usuario;
-    return $user->getUsers($conn);
+    return $user->getUsers($conn, $idUser);
 }
 
 function setUser($dados, $conn = false)
