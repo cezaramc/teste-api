@@ -23,11 +23,6 @@ Posts de um usuário: /users/{id}/posts
 A aplicação pode ser feita utilizando qualquer framework atual.
 - **Utilizei o Slim para criação da API**
 
-Fonte dos dados - APIs
-Usuários: http://jsonplaceholder.typicode.com/users
-
-Posts: http://jsonplaceholder.typicode.com/posts
-
 # Arquivo de edição (<diretório-projeto>/config/config.php)
 - Necessita de um usuário que possua permissão para CREATE, DELETE, SELECT, UPDATE, INDEX e INSERT;
 - A criação da base de dados e a importação dos usuário é feita automaticamente ao acessar a tela de usuários pela primeira vez;
