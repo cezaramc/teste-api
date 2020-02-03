@@ -16,6 +16,7 @@ Todos os usuários: /users
 
 Usuário específico: /users/{id}
 - **<diretório-projeto>/api/users/{id}**
+
 Posts de um usuário: /users/{id}/posts
 - **<diretório-projeto>/api/users/{id}/posts**
 
